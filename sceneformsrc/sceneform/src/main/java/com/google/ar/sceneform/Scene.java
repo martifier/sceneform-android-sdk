@@ -1,10 +1,10 @@
 package com.google.ar.sceneform;
 
 import android.media.Image;
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
 import android.util.Log;
 import android.view.MotionEvent;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 
 import com.google.ar.sceneform.collision.Collider;
 import com.google.ar.sceneform.collision.CollisionSystem;

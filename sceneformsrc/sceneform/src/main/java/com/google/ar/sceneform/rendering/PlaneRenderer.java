@@ -1,7 +1,7 @@
 package com.google.ar.sceneform.rendering;
 
-import android.support.annotation.Nullable;
 import android.util.Log;
+import androidx.annotation.Nullable;
 import com.google.ar.core.Frame;
 import com.google.ar.core.HitResult;
 import com.google.ar.core.Plane;

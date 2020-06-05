@@ -2,13 +2,13 @@ package com.google.ar.sceneform.rendering;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import com.google.ar.sceneform.collision.Box;
 import com.google.ar.sceneform.common.TransformProvider;

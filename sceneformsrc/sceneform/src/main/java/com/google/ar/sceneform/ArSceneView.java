@@ -3,12 +3,12 @@ package com.google.ar.sceneform;
 import android.content.Context;
 import android.media.Image;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.UiThread;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
+import androidx.annotation.Nullable;
+import androidx.annotation.UiThread;
 import com.google.ar.core.Anchor;
 import com.google.ar.core.CameraConfig.FacingDirection;
 import com.google.ar.core.Config;

@@ -15,8 +15,8 @@
  */
 package com.google.ar.sceneform.ux;
 
-import android.support.annotation.Nullable;
 import android.view.MotionEvent;
+import androidx.annotation.Nullable;
 import com.google.ar.sceneform.HitTestResult;
 import com.google.ar.sceneform.Node;
 

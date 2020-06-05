@@ -1,8 +1,8 @@
 package com.google.ar.sceneform.rendering;
 
 import android.graphics.SurfaceTexture;
-import android.support.annotation.Nullable;
 import android.view.Surface;
+import androidx.annotation.Nullable;
 import com.google.android.filament.Stream;
 import com.google.ar.sceneform.utilities.AndroidPreconditions;
 import com.google.ar.sceneform.utilities.Preconditions;

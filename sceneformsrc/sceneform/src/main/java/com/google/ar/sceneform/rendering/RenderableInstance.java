@@ -1,9 +1,9 @@
 package com.google.ar.sceneform.rendering;
 
 import android.net.Uri;
-import android.support.annotation.Nullable;
-import android.support.annotation.Size;
 import android.util.Log;
+import androidx.annotation.Nullable;
+import androidx.annotation.Size;
 import com.google.android.filament.Engine;
 import com.google.android.filament.Entity;
 import com.google.android.filament.EntityInstance;
