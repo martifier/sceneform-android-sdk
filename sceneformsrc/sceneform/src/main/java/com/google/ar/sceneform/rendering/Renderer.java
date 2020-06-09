@@ -231,7 +231,7 @@ public class Renderer implements UiHelper.RendererCallback {
   }
 
   /** @hide */
-  public void render(boolean debugEnabled) {
+  public void render(boolean debugEnabled, long frameTimeNanos) {
     synchronized (this) {
       if (recreateSwapChain) {
         final IEngine engine = EngineInstance.getEngine();
@@ -280,7 +280,7 @@ public class Renderer implements UiHelper.RendererCallback {
           throw new AssertionError("Internal Error: Failed to get swap chain");
         }
 
-        if (renderer.beginFrame(swapChainLocal, 0)) {
+        if (renderer.beginFrame(swapChainLocal, frameTimeNanos)) {
           if (preRenderCallback != null) {
             preRenderCallback.preRender(renderer, swapChainLocal, camera);
           }
